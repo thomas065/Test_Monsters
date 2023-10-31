@@ -12,7 +12,7 @@
 
         public int Strength { get; set; }
 
-        public string? Bio { get; set; }
+        public string? Archetype { get; set; }
 
     }
 }

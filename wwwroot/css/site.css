@@ -17,6 +17,10 @@ footer {
 }
 /* #endregion */
 
+body {
+    background: url(/img/phase1.jpg) no-repeat center center fixed;
+}
+
 footer, nav.navbar {
     background-color: var(--tb-cyan-900);
     color: var(--tb-gray-100);
@@ -56,12 +60,6 @@ footer .bi {
 .codeExpo {
     height: 650px;
     overflow-y: scroll;
-}
-
-body {
-    background-image: url(/img/phase1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .shadowMe {
